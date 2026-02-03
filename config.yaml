@@ -1,0 +1,14 @@
+# Model Configuration
+model_params:
+  alpha: 1.0
+  fit_prior: true
+
+# Data Configuration
+features:
+  categorical_columns: ['Outlook', 'Temperature', 'Humidity', 'Wind']
+  drop_columns: ['Day']
+  target_column: 'Play'
+
+# Paths
+paths:
+  data_path: "Data/play_tennis_dataset.csv"
